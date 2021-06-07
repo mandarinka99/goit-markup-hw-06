@@ -652,6 +652,13 @@ address {
   color: var(--primary-white-color);
 }
 
+.footer-form-title {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
 .footer-right-part {
   margin-left: auto;
   /* width: 570px; */
@@ -664,7 +671,17 @@ address {
 .footer-form .form-btn {
   margin-left: 12px;
 }
+.footer-inp::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
 
+.footer-inp {
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: inherit;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
 /* backdrop */
 
 .backdrop {
