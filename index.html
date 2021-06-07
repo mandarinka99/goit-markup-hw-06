@@ -546,12 +546,54 @@
             </li>
           </ul>
         </div>
+        <div class="footer-right-part">
+          <b>Подпишитесь на рассылку</b>
+          <div class="footer-form">
+            <input type="email" name="e-mail" placeholder="E-mail" />
+            <button type="submit" name="e-mail" id="e-mail">Подписаться</button>
+          </div>
+        </div>
       </div>
     </footer>
 
     <!-- backdrop -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <!-- Form -->
+        <form class="form">
+          <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+          <div class="form-field">
+            <label for="name">Имя</label>
+
+            <input type="text" id="name" autofocus />
+          </div>
+          <div class="form-field">
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel" />
+          </div>
+          <div class="form-field">
+            <label for="mail">Почта</label>
+            <input type="email" name="mail" id="mail" />
+          </div>
+          <div class="form-field form-comment">
+            <label for="comment">Комментарий</label>
+            <textarea
+              class="comment"
+              name="comment"
+              id="comment"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+          <div class="form-checkbox">
+            <input type="checkbox" name="policy" id="policy" />
+            <label for="policy">
+              Соглашаюсь с рассылкой и принимаю
+              <a href="" class="checkbox-link">Условия договора</a>
+            </label>
+          </div>
+          <button type="submit" class="modal-btn button">Отправить</button>
+        </form>
+        <!-- icon-close -->
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="icon-btn">
             <use href="./images/icons.svg#icon-close-window"></use></svg
