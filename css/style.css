@@ -657,6 +657,14 @@ address {
   /* width: 570px; */
 }
 
+.footer-form {
+  display: flex;
+}
+
+.footer-form .form-btn {
+  margin-left: 12px;
+}
+
 /* backdrop */
 
 .backdrop {
@@ -764,8 +772,10 @@ textarea {
   color: var(--accent-color);
 }
 
-.modal-btn {
-  padding: 10px 56px 10px 55px;
+.form-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
   margin-right: auto;
   margin-left: auto;
   display: block;
